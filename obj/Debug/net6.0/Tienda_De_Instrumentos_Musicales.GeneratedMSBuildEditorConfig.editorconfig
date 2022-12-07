@@ -1,0 +1,115 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = false
+build_property.PlatformNeutralAssembly = 
+build_property._SupportedPlatformList = browser
+build_property.EnableSingleFileAnalyzer = 
+build_property.EnableTrimAnalyzer = true
+build_property.IncludeAllContentForSelfExtract = 
+build_property.RootNamespace = Tienda_De_Instrumentos_Musicales
+build_property.RootNamespace = Tienda_De_Instrumentos_Musicales
+build_property.ProjectDir = D:\BlazorTiendaMusical\Tienda_De_Instrumentos_Musicales\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = D:\BlazorTiendaMusical\Tienda_De_Instrumentos_Musicales
+build_property._RazorSourceGeneratorDebug = 
+
+[D:/BlazorTiendaMusical/Tienda_De_Instrumentos_Musicales/App.razor]
+build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/BlazorTiendaMusical/Tienda_De_Instrumentos_Musicales/Pages/Categoria/Agregar.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2F0ZWdvcmlhXEFncmVnYXIucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/BlazorTiendaMusical/Tienda_De_Instrumentos_Musicales/Pages/Categoria/Editar.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2F0ZWdvcmlhXEVkaXRhci5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/BlazorTiendaMusical/Tienda_De_Instrumentos_Musicales/Pages/Categoria/Eliminar.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2F0ZWdvcmlhXEVsaW1pbmFyLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/BlazorTiendaMusical/Tienda_De_Instrumentos_Musicales/Pages/Categoria/Index.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2F0ZWdvcmlhXEluZGV4LnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/BlazorTiendaMusical/Tienda_De_Instrumentos_Musicales/Pages/Contacto/Agregar.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ29udGFjdG9cQWdyZWdhci5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/BlazorTiendaMusical/Tienda_De_Instrumentos_Musicales/Pages/Contacto/Editar.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ29udGFjdG9cRWRpdGFyLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/BlazorTiendaMusical/Tienda_De_Instrumentos_Musicales/Pages/Contacto/Eliminar.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ29udGFjdG9cRWxpbWluYXIucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/BlazorTiendaMusical/Tienda_De_Instrumentos_Musicales/Pages/Contacto/Index.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ29udGFjdG9cSW5kZXgucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/BlazorTiendaMusical/Tienda_De_Instrumentos_Musicales/Pages/Home.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSG9tZS5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/BlazorTiendaMusical/Tienda_De_Instrumentos_Musicales/Pages/Index.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXgucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/BlazorTiendaMusical/Tienda_De_Instrumentos_Musicales/Pages/Rol/Agregar.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUm9sXEFncmVnYXIucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/BlazorTiendaMusical/Tienda_De_Instrumentos_Musicales/Pages/Rol/Editar.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUm9sXEVkaXRhci5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/BlazorTiendaMusical/Tienda_De_Instrumentos_Musicales/Pages/Rol/Eliminar.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUm9sXEVsaW1pbmFyLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/BlazorTiendaMusical/Tienda_De_Instrumentos_Musicales/Pages/Rol/Index.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUm9sXEluZGV4LnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/BlazorTiendaMusical/Tienda_De_Instrumentos_Musicales/Pages/Usuario/Agregar.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVXN1YXJpb1xBZ3JlZ2FyLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/BlazorTiendaMusical/Tienda_De_Instrumentos_Musicales/Pages/Usuario/Editar.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVXN1YXJpb1xFZGl0YXIucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/BlazorTiendaMusical/Tienda_De_Instrumentos_Musicales/Pages/Usuario/Eliminar.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVXN1YXJpb1xFbGltaW5hci5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/BlazorTiendaMusical/Tienda_De_Instrumentos_Musicales/Pages/Usuario/Index.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVXN1YXJpb1xJbmRleC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/BlazorTiendaMusical/Tienda_De_Instrumentos_Musicales/Shared/LoginLayout.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXExvZ2luTGF5b3V0LnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/BlazorTiendaMusical/Tienda_De_Instrumentos_Musicales/Shared/SurveyPrompt.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXFN1cnZleVByb21wdC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/BlazorTiendaMusical/Tienda_De_Instrumentos_Musicales/_Imports.razor]
+build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/BlazorTiendaMusical/Tienda_De_Instrumentos_Musicales/Shared/MainLayout.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE1haW5MYXlvdXQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-5fdsh6hnpm
+
+[D:/BlazorTiendaMusical/Tienda_De_Instrumentos_Musicales/Shared/NavMenu.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE5hdk1lbnUucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-0gnoxhwz0m

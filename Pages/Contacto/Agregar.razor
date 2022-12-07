@@ -1,0 +1,78 @@
+﻿@page "/contacto/agregar"
+@inject HttpClient Http
+@inject NavigationManager NavigationManager
+@inject ILocalStorageService _localStorageService
+
+<MudText Typo="Typo.h2" Class="ml">Nuevo Contacto</MudText>
+
+<MudGrid>
+    <MudItem xs="12" sm="7">
+        <MudPaper Class="pa-4">
+            <EditForm Model="contacto" OnValidSubmit="OnValidSubmit">
+                <DataAnnotationsValidator />
+                <MudCard>
+                    <MudCardContent>
+                        <MudTextField Label="Nombre" @bind-Value="contacto.Nombre" For="@(() => contacto.Nombre)" />
+                        <MudTextField Label="Correo" @bind-Value="contacto.Correo" For="@(() => contacto.Correo)" />
+                        <MudTextField Label="Telefono" @bind-Value="contacto.Telefono" For="@(() => contacto.Telefono)" />                        
+                        <MudSelect Variant="Variant.Outlined" Label="Departamento" AnchorOrigin="Origin.BottomCenter"
+                                   @bind-Value="contacto.IdCategoria" For="@(() => contacto.IdCategoria)">
+                            @foreach(var item in categorias){
+                                <MudSelectItem Value="@item.Id">@item.Nombre</MudSelectItem>
+                            }
+                        </MudSelect>
+                    </MudCardContent>
+                    <MudCardActions>
+                        <MudButton ButtonType="ButtonType.Submit" Variant="Variant.Filled" Color="Color.Primary" Class="ml-auto">Guardar</MudButton>
+                    </MudCardActions>
+                </MudCard>
+            </EditForm>
+            @if (showLeaveAlert)
+            {
+                <MudAlert Severity="Severity.Error" ContentAlignment="HorizontalAlignment.Center" ShowCloseIcon="true" CloseIconClicked="(() => CloseMe(true))">No se pudo guardar.</MudAlert>
+            }
+        </MudPaper>
+    </MudItem>
+</MudGrid>
+
+@code {
+    private IEnumerable<Categoria> categorias = new List<Categoria>();
+    private bool showLeaveAlert = false;
+    Contacto contacto = new Contacto();
+
+    protected override async Task OnInitializedAsync()
+    {
+        Http.DefaultRequestHeaders.Authorization =
+            new AuthenticationHeaderValue("Bearer", await _localStorageService.GetItemAsync<string>("token"));
+        await getCategorias();
+    }
+
+    private async Task OnValidSubmit(EditContext context)
+    {
+        await save();
+    }
+
+    private async Task save()
+    {
+        var httpResponse = await Http.PostAsJsonAsync<Contacto>("contacto", contacto);
+
+        if (!(httpResponse.StatusCode == System.Net.HttpStatusCode.OK))
+        {
+            showLeaveAlert = true;
+        }
+        else
+        {
+            NavigationManager.NavigateTo("contacto/index");
+        }
+    }
+
+    private void CloseMe(bool value)
+    {
+        showLeaveAlert = false;
+    }
+
+    private async Task getCategorias(){
+        var httpResponse = await Http.GetStringAsync("categoria");
+        categorias = JsonSerializer.Deserialize<IEnumerable<Categoria>>(httpResponse, new JsonSerializerOptions { PropertyNameCaseInsensitive = true });
+    }
+}
